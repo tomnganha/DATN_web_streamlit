@@ -1,0 +1,7 @@
+streamlit==1.46.0
+torch==2.7.1
+torchvision==0.22.1
+pillow==11.2.1
+numpy==2.2.6
+opencv-python-headless==4.12.0.88
+matplotlib==3.10.3

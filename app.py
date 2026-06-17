@@ -189,7 +189,7 @@ def load_model():
 def load_unet_model():
     model = UNet(in_channels=3, out_channels=1)
     
-    checkpoint_path = "best_model_Unet.pth.tar"
+    checkpoint_path = "best_model_Unet.tar"
     checkpoint = torch.load(checkpoint_path, map_location="cpu")
     
     if isinstance(checkpoint, dict):
